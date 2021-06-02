@@ -14,7 +14,24 @@ h3 {
     margin: 5% 2% 0% 2%;
 }
 
+.features {
+    padding: 7% 15%;
+    text-align: center;
+}
 
+.features-subtext {
+    font-weight: 300;
+}
+
+.icon {
+
+    color: #ff2e4f;
+    margin: 40px 0px 20px 0px;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
 
 .meet {
     color: #fff;
@@ -36,7 +53,7 @@ h3 {
 
 .nav-item {
     font-size: 1.4rem;
-    font-weight: 300;
+    font-weight: 500;
     padding-left: 30px;
 }
 
@@ -48,7 +65,7 @@ h3 {
     background-color: #ff4c68;
 }
 
-#features {
-    margin: 250px 0px 0px 0px;
+/* #features {
+    margin: 200px 350px;
     text-align: center;
-}
+} */
