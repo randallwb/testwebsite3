@@ -2,6 +2,12 @@ body {
   font-family: Montserrat;
 }
 
+h2 {
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 h3 {
   font-weight: 700;
 }
@@ -59,6 +65,36 @@ h3 {
 
 .phone {
   transform: rotate(25deg);
+}
+
+#press {
+    background-color: #ff4c68;
+    color:#fff;
+    padding: 3% 15%;
+    text-align: center;
+}
+
+.press-logo {
+    padding: 2%;
+    width: 20%;
+}
+
+#testimonials {
+    background-color: #ff4c68;
+    color:#fff;
+    padding: 3% 15%;
+    text-align: center;
+}
+
+.testimonials-logo {
+    border-radius: 100%;
+    margin: 2% 2% 5%;
+    width: 80px;
+}
+.testimonials-logo-2 {
+    border-radius: 100%;
+    margin: 2%;
+    width: 80px;
 }
 
 #title {
