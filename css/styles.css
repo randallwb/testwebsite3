@@ -1,71 +1,69 @@
 body {
-    font-family: Montserrat;
+  font-family: Montserrat;
 }
 
 h3 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .container-fluid {
-    padding: 3% 15%;
+  padding: 3% 15%;
 }
 
 .download-button {
-    margin: 5% 2% 0% 2%;
+  margin: 5% 2% 0% 2%;
 }
 
 .features {
-    padding: 7% 15%;
-    text-align: center;
+  padding: 7% 22%;
+  text-align: center;
 }
 
 .features-subtext {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .icon {
-
-    color: #ff2e4f;
-    margin: 40px 0px 20px 0px;
+  color: #ff2e4f;
+  margin: 40px 0px 20px 0px;
 }
 
 .icon:hover {
-    color: #ff4c68;
+  color: #ff4c68;
 }
 
 .meet {
-    color: #fff;
-    font-family: Montserrat;
-    font-size: 4rem;
-    font-weight: 900;
-    line-height: 1.5;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5;
 }
 
 .navbar {
-    padding: 8px 0px 120px 0px;
+  padding: 8px 0px 120px 0px;
 }
 
 .navbar-brand {
-    font-family: Ubuntu;
-    font-size: 3rem;
-    font-weight: 700;
+  font-family: Ubuntu;
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 .nav-item {
-    font-size: 1.4rem;
-    font-weight: 500;
-    padding-left: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding-left: 30px;
 }
 
 .phone {
-    transform: rotate(25deg);
+  transform: rotate(25deg);
 }
 
 #title {
-    background-color: #ff4c68;
+  background-color: #ff4c68;
 }
 
-/* #features {
-    margin: 200px 350px;
-    text-align: center;
-} */
+.sdf {
+    padding: 1% 2%;
+}
