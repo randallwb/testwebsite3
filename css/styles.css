@@ -15,12 +15,13 @@ h3 {
 }
 
 .features {
-  padding: 7% 22%;
+  padding: 7% 14%;
   text-align: center;
 }
 
 .features-subtext {
-  font-weight: 300;
+    color: #383838;
+  padding: 1% 22%;
 }
 
 .icon {
@@ -62,8 +63,4 @@ h3 {
 
 #title {
   background-color: #ff4c68;
-}
-
-.sdf {
-    padding: 1% 2%;
 }
