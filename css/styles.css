@@ -70,7 +70,7 @@ h3 {
 #press {
     background-color: #ff4c68;
     color:#fff;
-    padding: 3% 15%;
+    padding: 0% 14%;
     text-align: center;
 }
 
@@ -82,8 +82,12 @@ h3 {
 #testimonials {
     background-color: #ff4c68;
     color:#fff;
-    padding: 3% 15%;
+    
     text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 14%;
 }
 
 .testimonials-logo {
@@ -93,7 +97,7 @@ h3 {
 }
 .testimonials-logo-2 {
     border-radius: 100%;
-    margin: 2%;
+    margin: 2% 2% 5%;
     width: 80px;
 }
 
