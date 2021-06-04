@@ -3,12 +3,13 @@ body {
 }
 
 h2 {
-    font-family: Montserrat;
-    font-size: 3rem;
-    font-weight: 700;
+  font-family: Montserrat;
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 h3 {
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
@@ -28,7 +29,7 @@ h3 {
 }
 
 .features-subtext {
-    color: #383838;
+  color: #383838;
   padding: 1% 22%;
 }
 
@@ -72,22 +73,22 @@ h3 {
 }
 
 #press {
-    background-color: #ff4c68;
-    color:#fff;
-    padding: 3% 14%;
-    text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 3% 14%;
+  text-align: center;
 }
 
 .press-logo {
-    padding: 2%;
-    width: 20%;
+  padding: 2%;
+  width: 20%;
 }
 
 #testimonials {
-    background-color: #ff4c68;
-    color:#fff;
-    
-    text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+
+  text-align: center;
 }
 
 .carousel-item {
@@ -95,14 +96,14 @@ h3 {
 }
 
 .testimonials-logo {
-    border-radius: 100%;
-    margin: 2% 2% 5%;
-    width: 150px;
+  border-radius: 100%;
+  margin: 2% 2% 5%;
+  width: 150px;
 }
 .testimonials-logo-2 {
-    border-radius: 100%;
-    margin: 2% 2% 5%;
-    width: 150px;
+  border-radius: 100%;
+  margin: 2% 2% 5%;
+  width: 150px;
 }
 
 #title {
@@ -115,11 +116,10 @@ h3 {
 }
 
 .pricing-card {
-padding: 5% 3%;
+  padding: 5% 3%;
 }
 
-@media (max-width: 1340px)  {
-  
+@media (max-width: 1340px) {
   .phone {
     position: static;
     transform: rotate(0);
@@ -129,5 +129,20 @@ padding: 5% 3%;
   .container-fluid {
     text-align: center;
   }
+}
 
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 14% 5%;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  margin: 48px 0px 32px;
+}
+
+.social-icons {
+  padding: 0px 2px 2px;
 }
