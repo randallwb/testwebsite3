@@ -13,7 +13,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 10%;
 }
 
 .download-button {
@@ -21,6 +21,8 @@ h3 {
 }
 
 .features {
+  position: relative;
+  background-color: #fff;
   padding: 7% 14%;
   text-align: center;
 }
@@ -65,6 +67,8 @@ h3 {
 
 .phone {
   transform: rotate(25deg);
+  position: absolute;
+  right: 24%;
 }
 
 #press {
@@ -110,9 +114,20 @@ h3 {
   padding: 7% 14%;
 }
 
-/* .pricing-heading {
-} */
-
 .pricing-card {
 padding: 5% 3%;
+}
+
+@media (max-width: 1340px)  {
+  
+  .phone {
+    position: static;
+    transform: rotate(0);
+    padding-top: 7%;
+  }
+
+  .container-fluid {
+    text-align: center;
+  }
+
 }
